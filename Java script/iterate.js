@@ -1,23 +1,30 @@
+const resume={
+  "Name":"Dineshkumar",
+  "father Name":"Anbalagan",
+  "mother Name":"Lakshmi",
+  "Age":"26",
+  "Gender":"male",
+  "DOB":"14-04-1998",
+  "Nationality":"Indian",
+  "Qulification": "B.com",
+  "skills":["Javascript,HTML,Css"],
+  "Language Known": ["Tamil","English"],
+  "Email":"dineshvlr9500@gmail.com",
+  "phone": "9629144985",
 
+}
 
-
+console.log(resume.skills)
 
 
 //for in
- var jsonObject = {
-        'name': 'Dineshkumar',
-        'Age': '26'
-    };
 
-for (var prop in jsonObject) {
-  console.log("Key:" + prop);
-  console.log("Value:" + jsonObject[prop]);
+for (var self in resume) {
+  console.log(self + resume[self]);
 }
 
 //for of
 
-const num = [100, 200, 300];
-
-for (const value of num) {
+for (const value of resume) {
   console.log(value);
 }
