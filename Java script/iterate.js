@@ -1,3 +1,5 @@
+//Resume in Json Format
+
 let resume = {
   "Name": "Dineshkumar",
   "father Name": "Anbalagan",
