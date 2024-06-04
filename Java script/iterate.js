@@ -13,8 +13,6 @@ let resume = {
   "phone": "9629144985",
 }
 
-
-
 //for in
 
 for (var self in resume) {
